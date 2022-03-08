@@ -1,0 +1,19 @@
+.popular {
+    text-align: center;
+}
+
+.popular > .images {
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.popular > .images > img {
+    width: 30%;
+    margin: 10px;
+}
+
+.popular > .left {
+    text-align: left;
+}

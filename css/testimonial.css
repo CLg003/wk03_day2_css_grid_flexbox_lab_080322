@@ -1,0 +1,24 @@
+.testimonial-area {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    background-color: dimgrey;
+    height: 200px;
+    color: white;
+}
+
+.testimonial-area > section {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+
+cite {
+    color: rgb(160, 152, 152);
+}
+
+.testimonial-area > section > img {
+    height: 50px;
+}
